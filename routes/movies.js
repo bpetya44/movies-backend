@@ -62,7 +62,7 @@ router.get("/movies", async (req, res) => {
 		res.status(500).json({ error: true, message: "Internal Server Error" });
 	}
 });
-////Upload all movie.json
+
 // const insertMovies = async () => {
 //     try {
 //         const docs = await Movie.insertMany(movies);
